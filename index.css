@@ -21,18 +21,7 @@
   }
   
   /* <!-------------------------------------------------- NAVBAR ----------------------------------------------------> */
-  .fa-bars{
-    font-size: 2rem;
-    color: white;
-    background-color: #00000069;
-    padding: 10px ;
-    border-radius: 10px;
-    display: none;
-    position: absolute;
-    top: 0;
-    z-index: 10;
-    right: 0;
-  }
+ 
   #nav-menu {
     z-index: 7;
     display: flex;

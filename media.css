@@ -15,24 +15,18 @@
     }
 
     @media (max-width: 900px) {
-        .fa-bars{
-            font-size: 2rem;
-            color: white;
-            background-color: #00000069;
-            padding: 10px ;
-            border-radius: 10px;
-            display: block;
-          }
-          #nav-menu{
-            color: white;
-            display: none;
-          }
-          #nav-menu ul {
+        #nav-menu ul {
+            display: flex;
             width: 100%;
             text-align: center;
-           background-color: #000000;
-          }
-          
+            background-color: #000000;
+        }
+
+        #nav-menu ul li a {
+            padding: 14px 27px 10px 27px;
+            font-size: 1.1rem;
+        }
+
         #skills {
             grid-template-columns: repeat(3, 1fr);
         }
@@ -52,11 +46,13 @@
             margin: 0 auto 1em auto;
         }
 
-
-
         .child2 img {
-            margin-top: 2rem;
-        }
+            margin-top: 6em;
+            width: 300px;
+            border-radius: 20% 10%;
+            box-shadow: 2px 2px 10px rgb(0, 0, 0);
+            transition: all 1s;
+          }
 
         #home {
             padding-top: 0;
@@ -137,6 +133,18 @@
             width: 90%;
         }
     }
+    @media (max-width:700px) {
+        #nav-menu ul li a {
+            padding: 14px 12px 10px 12px;
+            font-size: 1rem;
+        }
+        #nav-menu {
+          height: 50px;
+          }
+          .mainheading{
+            font-size: 2rem;
+          }
+    }
 
     @media (max-width:600px) {
 
@@ -168,7 +176,13 @@
     }
 
     @media (max-width: 500px) {
-
+        #nav-menu {
+            height: 40px;
+            }
+        #nav-menu ul li a {
+            padding: 14px 5px 1px 5px;
+            font-size: 14px;
+        }
         #user-details {
             font-size: 1.3rem;
             width: 90%;
