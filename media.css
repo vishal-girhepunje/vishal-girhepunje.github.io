@@ -15,6 +15,25 @@
     }
 
     @media (max-width: 900px) {
+        /* .fa-bars{
+            position: absolute;
+            top: 0;
+            right:0 ;
+            z-index: 999;
+            color: rgb(255, 255, 255);
+            font-size: 2rem;
+            background-color: rgb(26, 25, 25);
+            text-decoration: none;
+         } */
+         /* .navbar{
+            display: none;
+            width: 100%;
+        }
+
+    
+        .navbar.active {
+            display: flex;
+        } */
         #nav-menu ul {
             display: flex;
             width: 100%;
@@ -188,9 +207,9 @@
     }
 
     @media (max-width: 500px) {
-        #nav-menu {
+        /* #nav-menu {
             height: 40px;
-            }
+            } */
         #nav-menu ul li a {
             padding: 14px 5px 1px 5px;
             font-size: 14px;
