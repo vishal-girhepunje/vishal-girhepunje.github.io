@@ -20,7 +20,7 @@
         font-size: 2rem;
         right: 5px;
         top: 5px;
-        position: absolute;
+        position: fixed;
         display: block;
         z-index: 999;
     }
