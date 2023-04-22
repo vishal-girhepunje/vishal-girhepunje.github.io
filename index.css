@@ -255,7 +255,8 @@ body {
   margin: 0 auto;
   border-radius: 5px;
   padding: 10px;
-  background-color: #b3d0ffc1;
+  /* background-color: #b3d0ffc1; */
+  background-color: #ecf3ff3b;
   color: rgb(0, 0, 0);
 }
 
