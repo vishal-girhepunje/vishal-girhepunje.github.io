@@ -51,7 +51,7 @@ body {
 }
 
 #nav-menu ul li a {
-  padding: 14px 27px 10px 27px;
+  padding: 4px 27px 10px 27px;
   color: rgb(128, 177, 255);
   font-size: 1.4rem;
   font-family: system-ui;
@@ -61,7 +61,6 @@ body {
 
 #nav-menu ul li a:hover {
   background-color: #ffffff00;
-  padding: 2px 0;
   border: 1px solid white;
   border-radius: 10px;
 }
