@@ -18,11 +18,32 @@
     .fa-bars {
         color: white;
         font-size: 2rem;
-        right: 5px;
+        left: 5px;
         top: 5px;
         position: fixed;
         display: block;
         z-index: 999;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-name: sun;
+        transition: all 1s;
+    }
+
+    @keyframes sun {
+        0% {
+            color: rgb(60, 93, 241);
+            rotate: 60deg;
+        }
+
+        50% {
+            color: rgb(255, 255, 255);
+            rotate: 180deg;
+        }
+
+        100% {
+            color: rgb(72, 104, 247);
+            rotate: 360deg;
+        }
     }
 
     #nav-menu ul li a:hover {
@@ -43,15 +64,19 @@
     }
 
     #nav-menu ul {
-        flex-direction: column;
-        display: flex;
-        width: 100%;
+        margin: 0;
+        display: block;
+        width: 240px;
         height: 400px;
+        border-radius: 10px 30px;
         text-align: center;
-        background-color: #000000;
+        border: 1px solid white;
+        /* background-color: #000000e7; */
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.911), rgba(49, 49, 49, 0.918), rgba(0, 0, 0, 0.918));
     }
 
     #nav-menu ul li a {
+        color: white;
         display: block;
         padding: 14px 27px 10px 27px;
         font-size: 1.1rem;
