@@ -119,6 +119,12 @@
         font-size: 1.5rem;
     }
 
+    #experience h2 {
+        width: 90%;
+        margin: 1rem auto 3em auto;
+        font-size: 1.5rem;
+    }
+
 
     #projects {
         margin: 1rem;
@@ -233,6 +239,12 @@
     }
 
     #about h2 {
+        width: 90%;
+        margin: 1rem auto 3em auto;
+        font-size: 1.1rem;
+    }
+
+    #experience h2 {
         width: 90%;
         margin: 1rem auto 3em auto;
         font-size: 1.1rem;

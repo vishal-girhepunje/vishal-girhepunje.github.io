@@ -202,7 +202,25 @@ body {
 }
 
 
+/* <!-------------------------------------------------- ABOUT ----------------------------------------------------> */
 
+#experience {
+  text-align: center;
+}
+
+#experience h1 {
+  font-family: system-ui;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+#experience h2 {
+  font-family: system-ui;
+  color: white;
+  width: 60%;
+  margin: 1rem auto 3em auto;
+  font-size: 1.5rem;
+}
 
 /* <!-------------------------------------------------- SKILLS ----------------------------------------------------> */
 
